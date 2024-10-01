@@ -9,6 +9,6 @@ inputs:
 outputs:
   myOutput:
     description: 'Total memory'
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
